@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "Id": 1,
+      "Nombre": "Arroz",
+      "Precio": 5000.0,
+      "Stock": 57,
+      "Codigo": 12345,
+      "Publicado": true,
+      "FechaCreacion": "2024-12-23"
+    },
+    {
+      "Id": 2,
+      "Nombre": "Frijoles",
+      "Precio": 8000.0,
+      "Stock": 45,
+      "Codigo": 121314,
+      "Publicado": false,
+      "FechaCreacion": "2023-12-22"
+    },
+    {
+      "Id": 3,
+      "Nombre": "Lentejas",
+      "Precio": 4000.0,
+      "Stock": 26,
+      "Codigo": 34534,
+      "Publicado": true,
+      "FechaCreacion": "2023-02-23"
+    },
+    {
+      "Id": 4,
+      "Nombre": "Manzanas",
+      "Precio": 1000.0,
+      "Stock": 77,
+      "Codigo": 986765,
+      "Publicado": false,
+      "FechaCreacion": "2023-06-13"
+    },
+    {
+      "Id": 5,
+      "Nombre": "Peras",
+      "Precio": 4600.0,
+      "Stock": 45,
+      "Codigo": 283239,
+      "Publicado": true,
+      "FechaCreacion": "2023-11-05"
+    },
+    {
+      "Id": 6,
+      "Nombre": "Azucar",
+      "Precio": 4500.0,
+      "Stock": 73,
+      "Codigo": 230382,
+      "Publicado": true,
+      "FechaCreacion": "2024-02-13"
+    }
+  ]
+}
