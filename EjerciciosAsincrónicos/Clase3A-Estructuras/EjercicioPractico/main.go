@@ -15,15 +15,15 @@ type Alumno struct {
 func main() {
 
 	alumno := Alumno{
-		Nombre: "Ximena",
-		Apellido: "Largo",
-		Dni: 123456,
+		Nombre:       "Ximena",
+		Apellido:     "Largo",
+		Dni:          123456,
 		FechaIngreso: time.Now(),
 	}
 
 	alumno.mostrarAlumno()
 }
 
-func (a *Alumno) mostrarAlumno(){
-	fmt.Print("Alumno: ", a.Nombre, a.Apellido , "\n identificacion: ", a.Dni, "\nFecha de ingreso: ", a.FechaIngreso) 
+func (a *Alumno) mostrarAlumno() {
+	fmt.Print("Alumno: ", a.Nombre, a.Apellido, "\n identificacion: ", a.Dni, "\nFecha de ingreso: ", a.FechaIngreso)
 }
